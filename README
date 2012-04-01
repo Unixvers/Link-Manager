@@ -1,0 +1,53 @@
+Petit Plugin pour le logiciel Sublime Text 2
+
+Ce plugin permet de gerer un petit gestionnaire de lien sous cette forme
+
+<!--  
+	Regles a mettre dans le Gestionnaire des liens "Unixvers.sublime-settings"
+{
+     "lien": lien sans selection (listes des API ou autres)
+     {
+         "LABEL": "URL",
+         "CSS": "http://forums.mediabox.fr/wiki/documentation/css",
+     },
+     "recherche": lien avec selection pour recherche (listes des moteur de recherche et documentation)
+     {
+         "LABEL": "URL",
+         "PHP": "http://fr.php.net/manual-lookup.php?pattern="
+     },
+     "serveur": lien sans selection (listes de vos serveur)
+     {
+         "LABEL": "URL",
+         "OVH": "http://www.ovh.fr/"
+     },
+     "social": lien sans selection (listes des reseaux sociaux)
+     {
+         "LABEL": "URL",
+         "Facebook": "https://www.facebook.com/",
+         "Twitter": "https://twitter.com/#!/",
+         "Google+": "https://plus.google.com/u/0/"
+     }
+ }
+  -->
+  
+  Dans l'editeur cela se présente sous la Forme du gestionnaire de package
+  
+  Vous Avez une liste déroulante avec 4 intitulé
+  
+	Lien 
+	la section lien peut regrouper par exemple plusieur API
+	
+	Recherche 
+	Ce champ est particulier il attend une selection d'un mot dans l'éditeur 
+	afin d'effectuer une recherche avec celui-ci (utile pour les docs)
+	
+	Serveur
+	Ici c'est comme lien et social aucune selection n'est necessaire 
+	cette espace permet de ranger ses serveur de developpement ou production
+	
+	Social
+	Ici pour le fun on peut mettre des liens vers facebook, twitter , Google+ etc....
+	
+Un petit remerciemment a Grafikart qui m'as fait découvrir ce petit lociel qui est sublime text 2
+Donc un petit lien s'impose : http://www.grafikart.fr/tutoriels/sublime-text-2/sublime-text-2-180
+

@@ -1,0 +1,15 @@
+[
+    {
+        "caption": "Unixvers",
+        "command": "unixvers"
+    },
+    {
+        "caption": "Unixvers: Gestionnaires des liens",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/User/Unixvers.sublime-settings"
+        }
+    }
+]
+
+
